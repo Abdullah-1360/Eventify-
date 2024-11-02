@@ -42,7 +42,7 @@ class Home extends StatelessWidget {
                       child: Card(
 
                         color: Colors.yellow[600], // Light blue
-                        child: const Center(child: Text('Upcoming Events',style: TextStyle(fontSize: 10),)),
+                        child: const Center(child: Text('Upcoming Events',style: TextStyle(fontSize: 10,color: Colors.black38))),
                       ),
                     ),
                   ),
@@ -55,7 +55,7 @@ class Home extends StatelessWidget {
                       },
                       child: Card(
                         color: Colors.teal[200], // Teal
-                        child: const Center(child: Text('Invitations')),
+                        child: const Center(child: Text('Invitations',style: TextStyle(color: Colors.black38))),
                       ),
                     ),
                   ),
@@ -68,7 +68,7 @@ class Home extends StatelessWidget {
                       },
                       child: Card(
                         color: Colors.orange[100], // Light orange
-                        child: const Center(child: Text('Tasks')),
+                        child: const Center(child: Text('Tasks',style: TextStyle(color: Colors.black38),)),
                       ),
                     ),
                   ),
@@ -86,7 +86,7 @@ class Home extends StatelessWidget {
                       },
                       child: Card(
                         color: Colors.pink[100], // Pink
-                        child: const Center(child: Text('Notifications')),
+                        child: const Center(child: Text('Notifications',style: TextStyle(color: Colors.black38),)),
                       ),
                     ),
                   ),
@@ -99,7 +99,7 @@ class Home extends StatelessWidget {
                       },
                       child: Card(
                         color: Colors.green[100], // Light green
-                        child: const Center(child: Text('Calendar')),
+                        child: const Center(child: Text('Calendar',style: TextStyle(color: Colors.black38),)),
                       ),
                     ),
                   ),
