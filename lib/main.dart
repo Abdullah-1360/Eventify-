@@ -1,4 +1,4 @@
-import 'package:event_o_s/pages/Home.dart';
+import 'package:event_o_s/pages/home.dart';
 import 'package:flutter/material.dart';
 
 void main() {
