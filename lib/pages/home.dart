@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/drawer.dart';
 import '../pages/upcomingevents.dart';
+import 'invitation_page.dart';
 class Home extends StatelessWidget {
   const Home({super.key});
 
@@ -51,7 +52,9 @@ class Home extends StatelessWidget {
                     width: 100,
                     child: GestureDetector(
                       onTap: (){
-
+                        Navigator.push(
+                          context,MaterialPageRoute(builder: (context)=> const InvitationPage()),
+                        );
                       },
                       child: Card(
                         color: Colors.teal[200], // Teal
