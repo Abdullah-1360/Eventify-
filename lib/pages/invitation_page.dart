@@ -1,6 +1,4 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
 
@@ -31,16 +29,15 @@ class InvitationPage extends StatelessWidget {
               // mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   SizedBox(
-                      child: Text('Sermargi Jayashree',style:GoogleFonts.dancingScript(
-                      fontWeight: FontWeight.bold,
-                        color: Colors.orange[400],
+                      child: Text('Sermargi Jayashree',style:TextStyle(
+                          color: Colors.orange[400],
                         fontSize: 40
                       )
                       )
                   ),
-                  SizedBox(
+                  const SizedBox(
                       child: Text('25th March, 2022',
-                      style: GoogleFonts.montserrat(
+                      style: TextStyle(
                           fontWeight: FontWeight.w500,
                           fontSize: 20)
                       )
