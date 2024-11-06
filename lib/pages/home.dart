@@ -1,3 +1,4 @@
+import 'package:event_o_s/pages/task.dart';
 import 'package:flutter/material.dart';
 import '../widgets/drawer.dart';
 import '../pages/upcomingevents.dart';
@@ -67,7 +68,9 @@ class Home extends StatelessWidget {
                     width: 100,
                     child: GestureDetector(
                       onTap: (){
-
+                        Navigator.push(
+                          context,MaterialPageRoute(builder: (context)=> const Tasks()),
+                        );
                       },
                       child: Card(
                         color: Colors.orange[100], // Light orange
